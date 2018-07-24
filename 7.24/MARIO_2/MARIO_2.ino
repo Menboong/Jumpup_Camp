@@ -41,6 +41,7 @@ void loop() {
         delay(pauseBetweenNotes);
         noTone(8);
         val++;
+        EEPROM.write(1,val);
         if(val>=50) val = 0;
         if(analogRead(A0) >=300) 
         {
@@ -51,7 +52,6 @@ void loop() {
         {
           while(digitalRead(3)==0);
           delay(30);
-          EEPROM.write(1,val);
           Serial.println(EEPROM.read(1));
           break;
         }
