@@ -1,0 +1,47 @@
+#include "pitches.h"
+
+int melody[] = {
+  NOTE_E4,NOTE_E4,NOTE_E4,0,NOTE_C4,NOTE_E4,NOTE_G4,0,
+  NOTE_C4,NOTE_G3,0,NOTE_E3,0,NOTE_A3,NOTE_B3,0,NOTE_AS3,NOTE_A3,
+  NOTE_G3,NOTE_E4,NOTE_G4,NOTE_A4,NOTE_F4,NOTE_G4,0,NOTE_E4,NOTE_C4,NOTE_D4,NOTE_B3,
+  NOTE_C4,NOTE_G3,0,NOTE_E3,0,NOTE_A3,NOTE_B3,0,NOTE_AS3,NOTE_A3,
+  NOTE_G3,NOTE_E4,NOTE_G4,NOTE_A4,NOTE_F4,NOTE_G4,0,NOTE_E4,NOTE_C4,NOTE_D4,NOTE_B3
+};
+
+// note durations: 4 = quarter note, 8 = eighth note, etc.
+int noteDurations[] = {
+  10,5,10,13,10,5,4,4,
+  3,10,8,8,13,5,10,13,10,5,
+  8,8,8,8,10,10,13,5,10,10,5,
+  3,10,8,8,13,5,10,13,10,5,
+  8,8,8,8,10,10,13,5,10,10,5
+};
+
+void setup() 
+{
+  pinMode(3,INPUT);
+}
+
+void loop() {
+  if(digitalRead(3)==0)
+  {
+    delay(30);
+    while(digitalRead(3)==0);
+    {
+      for (int thisNote = 0; thisNote < 50; thisNote++) 
+      {
+        int noteDuration = 1000 / noteDurations[thisNote];
+        tone(8, melody[thisNote], noteDuration);
+        int pauseBetweenNotes = noteDuration * 1.30;
+        delay(pauseBetweenNotes);
+        noTone(8);
+        if(digitalRead(3)==0)
+        {
+          while(digitalRead(3)==0);
+          delay(30);
+          break;
+        }
+      }
+    }
+  }
+}
