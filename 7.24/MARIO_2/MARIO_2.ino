@@ -16,6 +16,7 @@ int noteDurations[] = {
   3,10,8,8,13,5,10,13,10,5,
   8,8,8,8,10,10,13,5,10,10,5
 };
+int val;
 
 void setup() 
 {
@@ -28,13 +29,15 @@ void loop() {
     delay(30);
     while(digitalRead(3)==0);
     {
-      for (int thisNote = 0; thisNote < 50; thisNote++) 
+      for (int thisNote = val; thisNote < 50; thisNote++) 
       {
         int noteDuration = 1000 / noteDurations[thisNote];
         tone(8, melody[thisNote], noteDuration);
         int pauseBetweenNotes = noteDuration * 1.30;
         delay(pauseBetweenNotes);
         noTone(8);
+        val++;
+        if(val>=50) val = 0;
         if(digitalRead(3)==0)
         {
           while(digitalRead(3)==0);
