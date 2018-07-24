@@ -38,6 +38,11 @@ void loop() {
         noTone(8);
         val++;
         if(val>=50) val = 0;
+        if(analogRead(A0) >=300) 
+        {
+          val = 0;
+          break;
+        }
         if(digitalRead(3)==0)
         {
           while(digitalRead(3)==0);
