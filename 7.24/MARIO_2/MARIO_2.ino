@@ -1,4 +1,5 @@
 #include "pitches.h"
+#include <EEPROM.h>
 
 int melody[] = {
   NOTE_E4,NOTE_E4,NOTE_E4,0,NOTE_C4,NOTE_E4,NOTE_G4,0,
@@ -16,11 +17,14 @@ int noteDurations[] = {
   3,10,8,8,13,5,10,13,10,5,
   8,8,8,8,10,10,13,5,10,10,5
 };
-int val;
 
+int val;
 void setup() 
 {
+  Serial.begin(9600);
   pinMode(3,INPUT);
+   val = EEPROM.read(1);
+   if(val>=50) val = 0;
 }
 
 void loop() {
@@ -47,6 +51,8 @@ void loop() {
         {
           while(digitalRead(3)==0);
           delay(30);
+          EEPROM.write(1,val);
+          Serial.println(EEPROM.read(1));
           break;
         }
       }
