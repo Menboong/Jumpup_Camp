@@ -1,0 +1,7 @@
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\bin\Debug\combobox.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\bin\Debug\combobox.pdb
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\obj\x86\Debug\combobox.Form1.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\obj\x86\Debug\combobox.Properties.Resources.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\obj\x86\Debug\combobox.csproj.GenerateResource.Cache
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\obj\x86\Debug\combobox.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\combobox\obj\x86\Debug\combobox.pdb
