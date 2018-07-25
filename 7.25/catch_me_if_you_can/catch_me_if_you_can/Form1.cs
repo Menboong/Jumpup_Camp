@@ -23,6 +23,8 @@ namespace catch_me_if_you_can
         private void button10_Click(object sender, EventArgs e)
         {
             sp.Play();
+            time = 0;
+            score = 0;
             timer1.Enabled = true;
             stime.Enabled = true;
             button1.Visible = false;
@@ -41,7 +43,6 @@ namespace catch_me_if_you_can
         {
             time++;
             label3.Text = (Convert.ToString(time));
-            label4.Text = (Convert.ToString(score));
             if(time >60)
             {
                 sp.Stop();
@@ -70,79 +71,124 @@ namespace catch_me_if_you_can
             }
             Random r = new Random();
             int rn = r.Next(1, 9);
+            label4.Text = (Convert.ToString(score));
 
-            if (rn == 1) button1.Visible = true;
+            if (rn == 1)
+            {
+                button1.Visible = true;
+                button1.Enabled = true;
+            }
             else button1.Visible = false;
 
-            if (rn == 2) button2.Visible = true;
+            if (rn == 2)
+            {
+                button2.Visible = true;
+                button2.Enabled = true;
+            }
             else button2.Visible = false;
 
-            if (rn == 3) button3.Visible = true;
+            if (rn == 3)
+            {
+                button3.Visible = true;
+                button3.Enabled = true;
+            }
             else button3.Visible = false;
 
-            if (rn == 4) button4.Visible = true;
+            if (rn == 4)
+            {
+                button4.Visible = true;
+                button4.Enabled = true;
+            }
             else button4.Visible = false;
 
-            if (rn == 5) button5.Visible = true;
+            if (rn == 5)
+            {
+                button5.Visible = true;
+                button5.Enabled = true;
+            }
             else button5.Visible = false;
 
-            if (rn == 6) button6.Visible = true;
-            else button6.Visible = false;
-
-            if (rn == 7) button7.Visible = true;
+            if (rn == 6)
+            {
+                button6.Visible = true;
+                button6.Enabled = true;
+            }
+            else button6.Visible = false; 
+            
+            if (rn == 7)
+            {
+                button7.Visible = true;
+                button7.Enabled = true;
+            }
             else button7.Visible = false;
 
-            if (rn == 8) button8.Visible = true;
+            if (rn == 8)
+            {
+                button8.Visible = true;
+                button8.Enabled = true;
+            }
             else button8.Visible = false;
 
-            if (rn == 9) button9.Visible = true;
+            if (rn == 9)
+            {
+                button9.Visible = true;
+                button9.Enabled = true;
+            }
             else button9.Visible = false;
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             score += 10;
+            button1.Enabled = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             score += 10;
+            button2.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             score += 10;
+            button3.Enabled = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             score += 10;
+            button4.Enabled = false;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             score += 10;
+            button5.Enabled = false;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             score += 10;
+            button6.Enabled = false;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             score += 10;
+            button7.Enabled = false;
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             score += 10;
+            button8.Enabled = false;
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             score += 10;
+            button9.Enabled = false;
         }
 
         private void button11_Click(object sender, EventArgs e)
