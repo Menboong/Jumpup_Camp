@@ -1,0 +1,7 @@
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\bin\Debug\DSM_1.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\bin\Debug\DSM_1.pdb
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\obj\x86\Debug\DSM_1.Form1.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\obj\x86\Debug\DSM_1.Properties.Resources.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\obj\x86\Debug\DSM_1.csproj.GenerateResource.Cache
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\obj\x86\Debug\DSM_1.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\DSM_1\obj\x86\Debug\DSM_1.pdb
