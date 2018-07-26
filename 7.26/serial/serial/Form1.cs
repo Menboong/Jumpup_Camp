@@ -35,7 +35,7 @@ namespace serial
 
         private void button5_Click(object sender, EventArgs e)
         {
-            serialPort1.Write("1");
+            serialPort1.Write("3");
         }
 
         private void button4_Click(object sender, EventArgs e)

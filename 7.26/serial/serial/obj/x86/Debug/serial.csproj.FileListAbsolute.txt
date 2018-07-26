@@ -12,3 +12,4 @@ C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\bin\Debug\s
 C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.Form1.resources
 C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.Properties.Resources.resources
 C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.csproj.GenerateResource.Cache
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.csprojResolveAssemblyReference.cache
