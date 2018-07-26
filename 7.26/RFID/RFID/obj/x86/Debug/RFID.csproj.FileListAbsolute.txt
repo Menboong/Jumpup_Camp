@@ -1,0 +1,9 @@
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\obj\x86\Debug\RFID.Form1.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\obj\x86\Debug\RFID.Properties.Resources.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\obj\x86\Debug\RFID.csproj.GenerateResource.Cache
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\bin\Debug\RFID.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\bin\Debug\RFID.pdb
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\obj\x86\Debug\RFID.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\RFID\obj\x86\Debug\RFID.pdb
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\RFID\RFID\obj\x86\Debug\RFID.exe
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\RFID\RFID\obj\x86\Debug\RFID.pdb
