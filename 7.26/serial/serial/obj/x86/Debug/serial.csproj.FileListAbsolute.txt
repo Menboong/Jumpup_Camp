@@ -1,0 +1,14 @@
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\bin\Debug\serial.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\bin\Debug\serial.pdb
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\obj\x86\Debug\serial.Form1.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\obj\x86\Debug\serial.Properties.Resources.resources
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\obj\x86\Debug\serial.csproj.GenerateResource.Cache
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\obj\x86\Debug\serial.exe
+C:\Users\DSM2018\AppData\Local\Temporary Projects\serial\obj\x86\Debug\serial.pdb
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.exe
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.pdb
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\bin\Debug\serial.exe
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\bin\Debug\serial.pdb
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.Form1.resources
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.Properties.Resources.resources
+C:\Users\DSM2018\Documents\Visual Studio 2010\Projects\serial\serial\obj\x86\Debug\serial.csproj.GenerateResource.Cache
