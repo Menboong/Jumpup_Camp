@@ -12,7 +12,6 @@ namespace serial
     public partial class Form1 : Form
     {
         string rxD;
-        int time=0;
         public Form1()
         {
             InitializeComponent();
@@ -52,10 +51,9 @@ namespace serial
         private void timer1_Tick(object sender, EventArgs e)
         {
             rxD = serialPort1.ReadExisting();
-            time++;
             if (rxD != "")
             {
-                if (time > 1)
+                if (Convert.ToInt32(rxD) < 1024)
                 {
                     label3.Text = rxD;
                     progressBar1.Value = Convert.ToInt32(rxD);
