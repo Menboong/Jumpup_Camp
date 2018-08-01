@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="bulb">
+    <file>image/bulb_on.png</file>
+    <file>image/idea (1).png</file>
+  </qresource>
+  <qresource prefix="bg">
+    <file>image/bg.png</file>
+  </qresource>
+  <qresource prefix="door">
+    <file>image/come-in.png</file>
+  </qresource>
+  <qresource prefix="window">
+    <file>image/opened-window-door-of-glasses.png</file>
+  </qresource>
+  <qresource prefix="wind">
+    <file>C:/Users/DSM2018/Downloads/breeze.png</file>
+  </qresource>
+</RCC>
