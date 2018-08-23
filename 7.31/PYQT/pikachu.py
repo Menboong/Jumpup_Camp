@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.BUTTON.setText(_translate("MainWindow", "툭..."))
 
-import test_image_rc
+#import test_image_rc
 
 if __name__ == "__main__":
     import sys
