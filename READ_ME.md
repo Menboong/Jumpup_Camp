@@ -14,10 +14,10 @@
 - python
 - appinventor
 ## 7.23
-###C_language
+### C_language
 - four_calculation
 
-###arduino
+### arduino
 - analog_temp
 - button
 - buzzer
@@ -76,7 +76,7 @@
  - use label
 
 ## 7.26
-###arduino
+### arduino
 - RFID
 - Serial_arduino
  - 아두이노 값을 c#으로 전송
