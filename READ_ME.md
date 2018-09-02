@@ -199,3 +199,41 @@
 ### designer
 - smartfarm_test_gui
  - 최종버전 gui  
+
+##9.1
+###pyqt
+- cal
+ - 복습 
+- bgimage
+ - 복습
+- write_text
+ - 복습 
+###html
+- table
+ - < td > 
+- h1~6tag
+ - < h1 > 
+- p tag
+ - < p > 
+- b tag
+ - < b > 
+- a tag
+ - < a href > 
+- list
+ - < ul >
+ 	 - < li >
+ - < ol >
+ 	 - < li > 
+ - < dl >
+ 	 - < dt >  
+ 	 - < dd >  
+- image
+ - < img alt > 
+- form
+ - < input type="text" name="uid >
+ - < input type="password" name="upw >
+ - < input type="radio" name="gender" value="m" checked >남
+ - < input type="checkbox" name="lan" value="kor" checked >한글
+ - < select >
+ - < option >
+ - < input type="submit"/ >
