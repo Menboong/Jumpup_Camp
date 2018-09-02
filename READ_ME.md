@@ -237,3 +237,21 @@
  - < select >
  - < option >
  - < input type="submit"/ >
+
+## 9.2
+### raspberrypi
+- GPIO
+ - python 코드로 led제어
+- putty
+ - 노트북과 원격제어
+
+### html
+- helloworld & app 출력하는 html
+- led제어 html
+
+### css
+- led 제어 css
+
+### flask
+- sever
+ - raspberry에 올려서 사용  
